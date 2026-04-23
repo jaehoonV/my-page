@@ -206,29 +206,115 @@
 					<div class="grid projects-grid">
 						<article class="project-card">
 							<div class="project-top">
-								<span class="project-badge">Web App</span>
+								<span class="project-badge">Desktop App</span>
 							</div>
-							<h3>자산 포트폴리오 웹 서비스</h3>
+							<h3>SpaceScope</h3>
 							<p>
-								저축, 주식, 수입/지출 데이터를 한곳에서 관리하는 자산 관리 웹
-								애플리케이션입니다. 데이터 구조 설계와 시각화 중심으로
-								발전시키고 있는 프로젝트입니다.
+								폴더별 용량을 한눈에 분석할 수 있도록 만든 Java 기반 데스크톱
+								애플리케이션입니다. 직관적인 UI를 통해 디렉터리 용량을 빠르게 확인하고,
+								분석 결과를 CSV로 내보낼 수 있도록 구현했습니다.
 							</p>
 							<div class="tags">
-								<span class="tag">Django</span>
-								<span class="tag">Python</span>
-								<span class="tag">Chart</span>
-								<span class="tag">Portfolio</span>
+								<span class="tag">Java</span>
+								<span class="tag">Swing</span>
+								<span class="tag">FlatLaf</span>
+								<span class="tag">CSV Export</span>
 							</div>
 							<div class="project-links">
-								<a class="link-chip" href="#">Live Demo</a>
-								<a
-									class="link-chip"
-									href="https://github.com/jaehoonV"
-									target="_blank"
-									rel="noopener noreferrer"
-									>GitHub</a
-								>
+								<a class="link-chip" href="https://github.com/jaehoonV/SpaceScope" target="_blank">
+									<svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+										<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+										0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+										-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+										2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+										0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+										.67-.21 2.2.82a7.66 7.66 0 012-.27c.68 0 1.36.09
+										2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+										1.92.08 2.12.51.56.82 1.27.82
+										2.15 0 3.07-1.87 3.75-3.65
+										3.95.29.25.54.73.54 1.48
+										0 1.07-.01 1.93-.01 2.2
+										0 .21.15.46.55.38A8.01 8.01
+										0 0016 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+									GitHub
+								</a>
+							</div>
+						</article>
+
+						<article class="project-card">
+							<div class="project-top">
+								<span class="project-badge">Realtime Web</span>
+							</div>
+							<h3>WebSocket 채팅 웹 애플리케이션</h3>
+							<p>
+								Node.js 기반으로 구현한 실시간 채팅 프로젝트입니다. WebSocket 통신을
+								활용해 사용자 간 메시지를 즉시 주고받을 수 있도록 구성했으며,
+								채팅 UI와 실시간 상호작용 흐름 구현에 집중했습니다.
+							</p>
+							<div class="tags">
+								<span class="tag">Node.js</span>
+								<span class="tag">Express</span>
+								<span class="tag">Socket.IO</span>
+								<span class="tag">EJS</span>
+							</div>
+							<div class="project-links">
+								<a class="link-chip" href="https://github.com/jaehoonV/WebSocket_Chatting" target="_blank">
+									<svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+										<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+										0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+										-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+										2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+										0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+										.67-.21 2.2.82a7.66 7.66 0 012-.27c.68 0 1.36.09
+										2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+										1.92.08 2.12.51.56.82 1.27.82
+										2.15 0 3.07-1.87 3.75-3.65
+										3.95.29.25.54.73.54 1.48
+										0 1.07-.01 1.93-.01 2.2
+										0 .21.15.46.55.38A8.01 8.01
+										0 0016 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+									GitHub
+								</a>
+							</div>
+						</article>
+
+						<article class="project-card">
+							<div class="project-top">
+								<span class="project-badge">Data & Finance</span>
+							</div>
+							<h3>금융 데이터 수집 및 분석 실험 프로젝트</h3>
+							<p>
+								주식 및 시장 지표 데이터를 수집하고 가공하기 위한 Python 프로젝트입니다.
+								국내외 금융 데이터를 스크래핑하거나 API로 불러와 분석용 데이터로 정리하는
+								과정을 중심으로 구성했습니다.
+							</p>
+							<div class="tags">
+								<span class="tag">Python</span>
+								<span class="tag">Finance</span>
+								<span class="tag">API</span>
+								<span class="tag">Scraping</span>
+							</div>
+							<div class="project-links">
+								<a class="link-chip" href="https://github.com/jaehoonV/Python_project" target="_blank">
+									<svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+										<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+										0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+										-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+										2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+										0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+										.67-.21 2.2.82a7.66 7.66 0 012-.27c.68 0 1.36.09
+										2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+										1.92.08 2.12.51.56.82 1.27.82
+										2.15 0 3.07-1.87 3.75-3.65
+										3.95.29.25.54.73.54 1.48
+										0 1.07-.01 1.93-.01 2.2
+										0 .21.15.46.55.38A8.01 8.01
+										0 0016 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+									GitHub
+								</a>
 							</div>
 						</article>
 
@@ -249,70 +335,101 @@
 								<span class="tag">Finance</span>
 							</div>
 							<div class="project-links">
-								<a class="link-chip" href="#">Detail</a>
-								<a
-									class="link-chip"
-									href="https://github.com/jaehoonV"
-									target="_blank"
-									rel="noopener noreferrer"
-									>GitHub</a
-								>
+								<a class="link-chip" href="https://github.com/jaehoonV" target="_blank">
+									<svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+										<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+										0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+										-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+										2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+										0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+										.67-.21 2.2.82a7.66 7.66 0 012-.27c.68 0 1.36.09
+										2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+										1.92.08 2.12.51.56.82 1.27.82
+										2.15 0 3.07-1.87 3.75-3.65
+										3.95.29.25.54.73.54 1.48
+										0 1.07-.01 1.93-.01 2.2
+										0 .21.15.46.55.38A8.01 8.01
+										0 0016 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+									GitHub
+								</a>
 							</div>
 						</article>
 
 						<article class="project-card">
 							<div class="project-top">
-								<span class="project-badge">AI / OCR</span>
+								<span class="project-badge">Bot</span>
 							</div>
-							<h3>영수증 이미지 인식 프로젝트</h3>
+							<h3>Discord 주식 정보 봇 프로젝트</h3>
 							<p>
-								영수증 이미지에서 필요한 정보를 추출하고 정리하는
-								프로젝트입니다. 사용자 편의성과 데이터 활용성까지 고려한
-								방향으로 구상 중입니다.
+								디스코드 환경에서 사용할 수 있는 Python 기반 봇 프로젝트입니다.
+								주식 데이터 조회 및 분석 로직을 연동해, 채팅 환경 안에서 필요한
+								정보를 빠르게 확인할 수 있도록 구성한 실험형 자동화 프로젝트입니다.
 							</p>
 							<div class="tags">
 								<span class="tag">Python</span>
-								<span class="tag">Image Processing</span>
-								<span class="tag">OCR</span>
-								<span class="tag">Automation</span>
+								<span class="tag">Discord.py</span>
+								<span class="tag">Pandas</span>
+								<span class="tag">Stock Analysis</span>
 							</div>
 							<div class="project-links">
-								<a class="link-chip" href="#">Detail</a>
-								<a
-									class="link-chip"
-									href="https://github.com/jaehoonV"
-									target="_blank"
-									rel="noopener noreferrer"
-									>GitHub</a
-								>
+								<a class="link-chip" href="https://github.com/jaehoonV/Discord-Bot-Project" target="_blank">
+									<svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+										<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+										0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+										-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+										2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+										0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+										.67-.21 2.2.82a7.66 7.66 0 012-.27c.68 0 1.36.09
+										2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+										1.92.08 2.12.51.56.82 1.27.82
+										2.15 0 3.07-1.87 3.75-3.65
+										3.95.29.25.54.73.54 1.48
+										0 1.07-.01 1.93-.01 2.2
+										0 .21.15.46.55.38A8.01 8.01
+										0 0016 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+									GitHub
+								</a>
 							</div>
 						</article>
 
-                        <article class="project-card">
+						<article class="project-card">
 							<div class="project-top">
-								<span class="project-badge">AI / OCR</span>
+								<span class="project-badge">Collaboration</span>
 							</div>
-							<h3>영수증 이미지 인식 프로젝트</h3>
+							<h3>Project Hub 협업 웹 서비스</h3>
 							<p>
-								영수증 이미지에서 필요한 정보를 추출하고 정리하는
-								프로젝트입니다. 사용자 편의성과 데이터 활용성까지 고려한
-								방향으로 구상 중입니다.
+								프로젝트 계획과 업무를 공유하고 정리할 수 있도록 만든 Spring 기반
+								협업 웹 애플리케이션입니다. 북마크, 프로젝트 홈, 게시판 등 협업에 필요한
+								주요 화면을 중심으로 구성했으며, 업무 흐름을 시각적으로 관리하는 데
+								초점을 맞췄습니다.
 							</p>
 							<div class="tags">
-								<span class="tag">Python</span>
-								<span class="tag">Image Processing</span>
-								<span class="tag">OCR</span>
-								<span class="tag">Automation</span>
+								<span class="tag">Spring</span>
+								<span class="tag">MyBatis</span>
+								<span class="tag">Oracle</span>
+								<span class="tag">JSP</span>
 							</div>
 							<div class="project-links">
-								<a class="link-chip" href="#">Detail</a>
-								<a
-									class="link-chip"
-									href="https://github.com/jaehoonV"
-									target="_blank"
-									rel="noopener noreferrer"
-									>GitHub</a
-								>
+								<a class="link-chip" href="https://github.com/jaehoonV/Project_Hub" rel="noopener noreferrer">
+									<svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+										<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+										0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+										-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+										2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+										0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+										.67-.21 2.2.82a7.66 7.66 0 012-.27c.68 0 1.36.09
+										2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+										1.92.08 2.12.51.56.82 1.27.82
+										2.15 0 3.07-1.87 3.75-3.65
+										3.95.29.25.54.73.54 1.48
+										0 1.07-.01 1.93-.01 2.2
+										0 .21.15.46.55.38A8.01 8.01
+										0 0016 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+									GitHub
+								</a>
 							</div>
 						</article>
 					</div>
